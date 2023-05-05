@@ -1,0 +1,24 @@
+Bug1
+
+Bug Report:
+
+ClassName: Class_      //path JavaSource/org/unitime/timetable/model/Class_.java
+
+Issue: Division by zero in the "effectiveTeachingLoad" method.
+
+Description: The "effectiveTeachingLoad" method calculates the effective teaching load by dividing the total load by the number of instructors. However, there is no check to ensure that the number of instructors is not zero before performing the division operation. This could result in a division by zero error, leading to unexpected behavior or program termination.
+
+
+
+Bug2
+
+Bug Report:
+
+ClassName:ExamDetailAction.
+//pathJavaSource/org/unitime/timetable/action/ExamDetailAction.java
+
+Issue: String and boxed types comparison using reference equality instead of equals() method.
+
+Description: The code is comparing two instances of the String and boxed types using reference equality (== or !=) instead of using the equals() method. This can lead to unexpected behavior as it compares the memory location of the two instances rather than their values. This can result in the program not behaving as expected.
+
+
