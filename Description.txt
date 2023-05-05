@@ -1,0 +1,36 @@
+								Comprehensive University Timetabling System
+
+
+
+UniTime is a comprehensive educational scheduling system that supports developing course and exam timetables, managing changes to these timetables,
+sharing rooms with other events, and scheduling students to individual classes.
+
+Ex:- Course timetabling management: objective behind course timetabling is to place each course at a time which does not conflict with the time assigned to any other course required by the students attending it.
+This is relatively easy if there are only a few courses taken in combination with the course of interest.
+
+Ex:- Examination Timetabling : UniTime builds a complete exam schedule each term that minimizes the number of conflicting exam placements for all students.
+It can also minimize the number of students with more than a given number of exams in a day.This is particularly useful for colleges and universities that have a large number of courses that do not fit well into mapped exam timetables.
+
+
+also UniTime is a distributed system that allows multiple university schedule managers to coordinate efforts to build and modify a schedule that meets their organizational needs while allowing for minimization of student course conflicts.
+
+Ex:- Student Scheduling: The student scheduling process is essentially that available time required by each student to the available class spaces so that all of the students educational requirements are met.
+The most direct approach to making sure every student is able to attend all of their needed courses is to construct the class timetable after collecting all student course requirements.
+
+finally, UniTime can be used to construct such a demand-based timetable and optimize the number of students who receive the needed courses.
+	 UniTime is able to determine the expected need for individual course sections. If the expected need for an individual class section is greater than the number of student spaces available,
+	 these spaces will be held for students who require that class to build a conflict free schedule.
+
+
+The technique we used: Top-Down approach,This approach can be applied to university timetabling by first understanding the high-level requirements of the system and then gradually breaking down the problem into smaller pieces.
+
+we must knows what components must be present , Knows what these components consist of
+
+Components that present in university timetabling :- The scheduling algorithm , The database that stores course and students information
+
+Components Consist of :- The scheduling algorithm might require functions that represent courses , rooms , TAs , Drs and scheduling constraints.
+			 The database component might require functions that allow for the storage and retrieval of course and room and students information.
+
+
+The reason that we use that technique is: The Unitime timetabling project is a complex project that involves many different components, algorithms, and data structures. When working with such a large and complex codebase, it can be difficult to understand the code and how it all fits together ,
+This is where a top-down approach to code comprehension can be useful.
